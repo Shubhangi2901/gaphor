@@ -8,7 +8,7 @@ import optparse
 import sys
 
 import gaphor.UML as UML
-from gaphor import Application
+from gaphor.application import Application
 
 # Setup command line options.
 usage = "usage: %prog [options] file.gaphor"
